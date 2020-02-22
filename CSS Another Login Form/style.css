@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/2/35/msi-games-oboi-rabochii-stol.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    form{
+    position: relative;
+    background-color: rgba(221, 221, 221, 0.1);
+    padding: 1rem 1.4rem;
+    }
+    form img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%); /* canh giữa */
+    border-radius: 50%;
+    }
+    form h2{
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase; /* viết hoa tất cả chữ thường */
+    }
+    form input{
+    display: block;
+    margin: 1rem 0;
+    padding: 10px 14px;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    border-radius: 2rem;
+    font-size: 18px;
+    }
+    form button{
+    padding: 8px 16px;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 2rem 0 1rem 0;
+    }
